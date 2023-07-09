@@ -967,7 +967,7 @@ MonoBehaviour:
   HealthBar: {fileID: 97988442}
   maxHP: 10
   currentHealth: 0
-  hpDropRate: 1
+  hpDropRate: 0.8
 --- !u!114 &97988442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6928,7 +6928,7 @@ MonoBehaviour:
   HealthBar: {fileID: 945306544}
   maxHP: 10
   currentHealth: 0
-  hpDropRate: 1
+  hpDropRate: 0.8
 --- !u!114 &945306544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9210,7 +9210,7 @@ MonoBehaviour:
   HealthBar: {fileID: 1344685954}
   maxHP: 10
   currentHealth: 0
-  hpDropRate: 1
+  hpDropRate: 0.8
 --- !u!114 &1344685954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9824,7 +9824,7 @@ MonoBehaviour:
   HealthBar: {fileID: 1445997388}
   maxHP: 10
   currentHealth: 10
-  hpDropRate: 1
+  hpDropRate: 0.8
 --- !u!114 &1445997388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12707,7 +12707,7 @@ MonoBehaviour:
   HealthBar: {fileID: 1833220456}
   maxHP: 10
   currentHealth: 0
-  hpDropRate: 1
+  hpDropRate: 0.8
 --- !u!114 &1833220456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14058,7 +14058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpIndex: 0
   calculated: 0
-  hpDropRate: 0.2
+  hpDropRate: 0.8
   hpBarList:
   - {fileID: 1445997385}
   - {fileID: 97988439}
