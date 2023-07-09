@@ -6,6 +6,6 @@ public class HideShadow : MonoBehaviour
 {
     public void Hide()
     {
-        this.gameObject.SetActive(false);
+        this.gameObject.SetActive(false);          
     }
 }

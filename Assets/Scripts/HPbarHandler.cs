@@ -12,7 +12,7 @@ public class HPbarHandler : MonoBehaviour
     public float hpDropRate = 0.2f;
     private float calculateHealth;
     
-    void Update()
+    void FixedUpdate()
     {
         calculateHealth = currentHealth / maxHP;
         HealthBar.fillAmount = Mathf.MoveTowards(HealthBar.fillAmount, calculateHealth, Time.deltaTime);

@@ -13,16 +13,58 @@ MonoBehaviour:
   m_Name: All Audio
   m_EditorClassIdentifier: 
   audio_Loop:
-  - soundName: Regular World
-    audioClip: {fileID: 8300000, guid: dbadff6077dcf544e9c8654654e006c6, type: 3}
-    volume: 1
-  - soundName: Dark World
-    audioClip: {fileID: 8300000, guid: 87ee4faa1c597574991178f2ba1e6d28, type: 3}
-    volume: 1
+  - soundName: BossFight
+    audioClip: {fileID: 8300000, guid: 8c1da3373706def40b4999cab8c68dc0, type: 3}
+    volume: 0.71
+  - soundName: EpicBossFight
+    audioClip: {fileID: 8300000, guid: 1d6a70089063b3e40bd3cfb9c2fc95ca, type: 3}
+    volume: 0.71
   audio_OneShot:
-  - soundName: Bubble
-    audioClip: {fileID: 8300000, guid: 291a6345eecf86343b66d511253c7862, type: 3}
+  - soundName: Moan1
+    audioClip: {fileID: 8300000, guid: 5ca41a206f1477d439bfd52dfdb21c69, type: 3}
     volume: 1
-  - soundName: Like
-    audioClip: {fileID: 8300000, guid: 88ffbc6d8846ad0408257a519d366647, type: 3}
+  - soundName: Moan2
+    audioClip: {fileID: 8300000, guid: 50089579f75a0a542bf330f451f6fa06, type: 3}
+    volume: 1
+  - soundName: Moan3
+    audioClip: {fileID: 8300000, guid: 90ae63b8bdde1384fbcf59bf245135ec, type: 3}
+    volume: 1
+  - soundName: WhipStart
+    audioClip: {fileID: 8300000, guid: 37bc4d73590d26540a9cc1be3d024cb9, type: 3}
+    volume: 1
+  - soundName: WhipHit
+    audioClip: {fileID: 8300000, guid: b683ea8c83e2f5e49b3dd9c330ff4ad2, type: 3}
+    volume: 1
+  - soundName: MeleeStart
+    audioClip: {fileID: 8300000, guid: 99151a1d6ad38514a976e00594ba030d, type: 3}
+    volume: 1
+  - soundName: BodyHit
+    audioClip: {fileID: 8300000, guid: 858fc873a4512ba4d8078351a3db0935, type: 3}
+    volume: 1
+  - soundName: ClubHit
+    audioClip: {fileID: 8300000, guid: 85cba6e00297f8f44b4626cef8aca694, type: 3}
+    volume: 1
+  - soundName: HammerHit
+    audioClip: {fileID: 8300000, guid: 7a81fda2ca9cc5e4886b8d55dca7c7f1, type: 3}
+    volume: 0.1
+  - soundName: NunchucksHit
+    audioClip: {fileID: 8300000, guid: c5a18348016aa6e4bbd5dcf18eaac8cb, type: 3}
+    volume: 1
+  - soundName: Huh
+    audioClip: {fileID: 8300000, guid: 39efe74a018d34c49baa83d7c7746adc, type: 3}
+    volume: 1
+  - soundName: ProjectileStart
+    audioClip: {fileID: 8300000, guid: 245408f4baa732842931197cc8e333e4, type: 3}
+    volume: 1
+  - soundName: PotionHit
+    audioClip: {fileID: 8300000, guid: 37cceb6153dc82e4d83897c2b7343df0, type: 3}
+    volume: 1
+  - soundName: PillowHit
+    audioClip: {fileID: 8300000, guid: bf710bbce0229f143aba48530802d141, type: 3}
+    volume: 1
+  - soundName: Win
+    audioClip: {fileID: 8300000, guid: c71ea96cfcae29141a8853ae82318241, type: 3}
+    volume: 1
+  - soundName: Lose
+    audioClip: {fileID: 8300000, guid: b653c4708d7478346a56153e4aefd99f, type: 3}
     volume: 1

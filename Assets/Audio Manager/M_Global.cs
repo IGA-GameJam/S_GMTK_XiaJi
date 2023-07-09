@@ -13,12 +13,22 @@ public class M_Global : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+      
     }
 
     void Start()
     {
-        
+        //string[] backgroundAudio = new string[1] { "BossFight" };
+        //M_Audio.PlayLoopAudio(backgroundAudio);
     }
 
     // Update is called once per frame
